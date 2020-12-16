@@ -1,4 +1,6 @@
-pandas
+pandas~=1.1.5
 Flask==1.1.1
 git+git://github.com/jamalex/notion-py
-pytz
+pytz~=2020.4
+
+notion~=0.0.27
