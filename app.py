@@ -17,7 +17,7 @@ def test():
     current_date = d.date()
 
     token_v2 = os.environ.get("TOKEN")
-    test_board_url = os.environ.get("URL")
+    test_board_url = os.environ.get("BOARD_URL")
     date_url = os.environ.get("DATE_URL")
 
     client = NotionClient(token_v2)
